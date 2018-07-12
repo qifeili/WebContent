@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="js/message.js"></script>
+    <link href="css/index01.css" type="text/css" rel="stylesheet" media="all">
+
+    <title>Gold Trad</title>
+</head>
+
+<style>
+
+
+    .goldService {
+        width: 1200px;
+        height: 600px;
+        margin: 0 auto;
+        background-color: whitesmoke;
+    }
+
+    .gold_Intro {
+        width: 580px;
+        height: 490px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        transition: all 0.25s;
+
+    }
+
+    .gold_index {
+
+    }
+
+    .fl {
+        float: left;
+    }
+
+    .fr {
+        float: right;
+    }
+
+    .gold_Intro p {
+        padding: 40px;
+        text-align: justify;
+        text-indent: 2em;
+        font-size: 20px;
+        color: #000;
+    }
+    .container{
+        width:1200px;
+        height:800px;
+        background-color: whitesmoke;
+        margin:0 auto;
+    }
+    .con_intro{
+        width:300px;
+        height:500px;
+        margin-left: 20px;
+    }
+    .con_intro p{
+        text-align: justify;
+        text-indent: 2em;
+        font-size: 20px;
+
+    }
+     h2 {
+        margin:0;
+        text-align: center;
+         padding:20px 0 20px 0;
+         height:50px;
+         font-size: 30px;
+        line-height: 50px;
+         color: white;
+         background-color: #03a9f4;
+
+    }
+     h2:hover{
+         color: #000;
+         //background-color: white;
+     }
+
+
+    .con_chart{
+        width:850px;height:690px;overflow:hidden;margin: 0 auto;
+    }
+    #content{
+        width:1200px;
+        height:auto;
+        margin:0 auto;
+    }
+
+
+</style>
+<body>
+
+
+
+<div class="goldService">
+            <h2 class="con-title">黄金交易介绍</h2>
+        <!--黄金介绍-->
+            <div class="gold_Intro fl">
+
+                <p>
+                    黄金交易是黄金市场的交易主要有两种，即现货交易和期货交易。黄金现货主要是指金块
+                    (砖)、金锭、金条和金币。私人或采金企业对新开采出来的黄金交易，大都是实物交易，客户购入的黄金可自行贮藏和转移，也可委托金商代为保管。现货交易一般是在成交后即行交割或在二日内完成交割。黄金现货交易的价格较为特殊，在伦敦黄金市场上分为定价交易和报价交易两种。定价交易的特点是给客户提供单一交易价，即无买卖差价。按照单一交易价，客户均可自由买卖，金商只收取少量佣金。报价交易则是有买卖价之分。定价交易只在规定的时间内有效，短则一分钟，长则一个小时，视市场客户的供求情况而定。世界上其他黄金市场的金价都是参照伦敦市场的定价水平，再根据本市场的供求状况而定。黄金期货交易是在成交后不立即交割，而由交易双方先签定合同，交付押金，在预定的日期再行交割。
+                </p>
+            </div>
+            <!--黄金指数-->
+            <div class="gold_Intro fr">
+                <p>
+                    黄金交易指数
+                </p>
+            </div>
+
+        </div>
+        </div>
+<!--黄金价格波动图-->
+
+    <div class="container ">
+        <h2 class="con-title">黄金交易实时价格</h2>
+        <div class="con_intro fl" >
+             <p >黄金T+D介绍</p>
+             <p>
+                 黄金T+D是一种以黄金为对象的交易产品，简称黄金TD。其中T代表单词trade，交易;D代表单词delay，延期。因此TD直接翻译就是“交易延期”，实际要表达的应该是“延期交易”。
+             </p>
+        </div>
+        <div class="con_chart fr" >
+            <iframe id="iframed" src="http://www.dyhjw.com/hjtd/" scrolling="no" frameborder="0"
+                    style="position:relative;top:-230px;left:-230px;width:1000px;height:1200px;"></iframe>
+        </div>
+    </div>
+<!--黄金交易评论区-->
+
+        <div id="content" >
+            <h2 class="con-title">黄金交易评论</h2>
+            <div id="post">
+                <textarea id="transition"></textarea>
+                <input id="postBt" type="button" value="发表评论" onclick="save()"/>
+                <input id="clearBt" type="button" value="清空所有" onclick="clearD()"/>
+            </div>
+            <ul id="comment"></ul>
+        </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+
+<script>
+
+
+    /**
+     * Created by wuyakun on 2017/7/11.
+     */
+
+    var head_footer = {};
+
+    head_footer.reSetM = function () {
+        //锚点 #id
+        var thisId = window.location.hash;
+        var allA = $('#m_select > li').find('a');
+        for (var i = 0; i < allA.length; i++) {
+            $(allA[i]).removeClass('select');
+        }
+
+        switch (thisId) {
+            case '#m-manager':
+                $(allA[1]).addClass('select');
+                break;
+            case '#m-project':
+                $(allA[2]).addClass('select');
+                break;
+            case '#m-client':
+                $(allA[3]).addClass('select');
+                break;
+            default:
+                $(allA[0]).addClass('select');
+                break;
+        }
+    };
+
+    head_footer.allViewSize = [{
+        id: '#m-banner'
+    }, {
+        id: '#m-manager'
+    }, {
+        id: '#m-project'
+    }, {
+        id: '#m-client'
+    }];
+
+    //获得每个View的高度跟坐标
+    head_footer.reGetAllViewSize = function () {
+        for (var i = 0; i < head_footer.allViewSize.length; i++) {
+            var obj = head_footer.allViewSize[i];
+            obj.min = $(obj.id).position().top;
+            obj.max = $(obj.id).position().top + $(obj.id).height();
+        }
+    };
+
+    $(document).ready(function () {
+
+        //设置锚点选中
+        // head_footer.reSetM();
+
+        //开始监听地址栏
+        $(window).bind('hashchange', function () {
+            // head_footer.reSetM();
+        });
+
+        head_footer.reGetAllViewSize();
+
+        //resize
+        $(window).resize(function () {
+            head_footer.reGetAllViewSize();
+        });
+
+        //开始监听滑动
+        $(window).scroll(function () {
+            //为页面添加页面滚动监听事件
+            var wst = $(window).scrollTop(); //滚动条距离顶端值
+
+            // console.log(wst);
+            // console.log(head_footer.allViewSize);
+
+            for (var i = 0; i < head_footer.allViewSize.length; i++) {
+                var obj = head_footer.allViewSize[i];
+                if (wst >= obj.min && wst < obj.max) {
+
+                    var allA = $('#m_select > li').find('a');
+                    if ($(allA[i]).hasClass("select")) {
+                        return;
+                    }
+
+                    //开始判断选中
+                    for (var j = 0; j < allA.length; j++) {
+                        $(allA[j]).removeClass('select');
+                    }
+                    $(allA[i]).addClass('select');
+                }
+            }
+
+        })
+
+    });
+
+
+    //根据参数名获得该参数  pname等于想要的参数名
+    function getParam(pname) {
+
+        var params = location.search.substr(1); //  获取参数 平且去掉？
+        var ArrParam = params.split('&');
+        if (ArrParam.length == 1) {
+            //只有一个参数的情况
+            return params.split('=')[1];
+        }
+        else {
+            //多个参数参数的情况
+            for (var i = 0; i < ArrParam.length; i++) {
+                if (ArrParam[i].split('=')[0] == pname) {
+
+                    return ArrParam[i].split('=')[1];
+                }
+            }
+        }
+
+    }
+    //平滑移动到 想要的位置
+    $(function() {
+        var mao = $("#" + getParam("m")); //获得锚点
+        if (mao.length > 0) {//判断对象是否存在
+            var pos = mao.offset().top;
+            var poshigh = mao.height();
+            $("html,body").animate({ scrollTop: pos-poshigh-30 }, 3000);
+        }
+    });
+
+</script>
+
+
+</body>
+</html>

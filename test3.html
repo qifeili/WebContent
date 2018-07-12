@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>簡單留言板</title>
+</head>
+<body>
+<h1>简单留言板</h1>
+<textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+<button type="button" value="保存" onclick="save()">保存</button>
+<button type="button" value="清除" onclick="clearStorage()">清除所有消息</button>
+<!--<button type="button" value="读取" onclick="loadStorage('msg')">读取</button>-->
+<p id="msg"></p>
+<script>
+    function save() {
+       var messdata= document.getElementById("message").value;
+       var time=new Date().getTime();
+      localStorage.setItem(time,messdata);
+
+        console.log(localStorage.valueOf());
+        console.log(localStorage.name);
+        console.log(localStorage.key(1));
+        console.log(localStorage.hasOwnProperty(localStorage.key(7)));
+       alert("已成功保存！");
+       Storage('msg');//执行存储函数，将消息输出
+
+
+        var arr=['aa','bb','cc'];
+        localStorage.arr=arr;
+       console.log(localStorage.arr.toLocaleString()) ;
+
+        var students = {
+            xiaomin: {
+                name: "xiaoming",
+                grade: 1
+            },
+            teemo: {
+                name: "teemo",
+                grade: 3
+            }
+        }
+
+        students = JSON.stringify(students);  //将JSON转为字符串存到变量里
+        console.log(students);
+        localStorage.setItem("studentsd",students);//将变量存到localStorage里
+
+        var newStudents = localStorage.getItem("studentsd");
+        newStudents = JSON.parse(students); //转为JSON
+        console.log(newStudents); // 打印出原先对象
+
+    }
+    //输出存储的消息
+    function Storage (id) {
+        var result='<table border="1">';
+        for(var i=0;i<localStorage.length;i++){
+              var key=localStorage.key(i);//读取第i个数据的名字或称为键值(从0开始计数)设置key值明确那一条数据
+
+              var value=localStorage.getItem(key);//读取数据
+              var date=new Date();
+              date.setTime(key);//设置每一条消息的时间
+              var datastr=date.toUTCString();
+              result+='<tr><td>'+'这是第'+(i+1)+'条数据'+'</td><td>'+value+'</td><td>'+datastr+'</td></tr>'
+        }
+        result+='<table>';
+        var target=document.getElementById(id);
+        target.innerHTML=result
+    }
+    function clearStorage() {
+        localStorage.clear();
+        alert("数据已经被成功删除！");
+        Storage('msg');
+    }
+    
+</script>
+</body>
+</html>
