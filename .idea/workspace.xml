@@ -4,7 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/GoldTrade.html" line="194" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8186a15c-ebd3-4bea-9c74-2af1daee472c" name="Default" comment="添加评论内容，昵称不能为空验证，添加中文昵称提醒。">
+    <list default="true" id="8186a15c-ebd3-4bea-9c74-2af1daee472c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebContent.iws" />
@@ -48,8 +48,8 @@
       <file leaf-file-name="GoldTrade.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GoldTrade.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="204" column="22" lean-forward="true" selection-start-line="204" selection-start-column="22" selection-end-line="204" selection-end-column="22" />
+            <state relative-caret-position="262">
+              <caret line="449" column="9" lean-forward="true" selection-start-line="449" selection-start-column="9" selection-end-line="449" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#3626#3632#0" expanded="true" />
@@ -87,19 +87,19 @@
                 <element signature="n#style#0;n#button#0;n#div#2;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#1;n#div#2;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#9401#9407#0" expanded="true" />
-                <element signature="e#9407#9413#0" expanded="true" />
-                <element signature="e#10569#10575#0" expanded="true" />
-                <element signature="e#10575#10581#0" expanded="true" />
-                <element signature="e#10782#11092#0" expanded="false" />
-                <element signature="e#11157#13080#0" expanded="false" />
-                <element signature="e#15757#16472#0" expanded="false" />
-                <marker date="1531467204556" expanded="true" signature="12077:12167" ph="..." />
-                <marker date="1531467204556" expanded="true" signature="12347:12413" ph="..." />
-                <marker date="1531467204556" expanded="true" signature="12610:12700" ph="..." />
-                <marker date="1531467204556" expanded="true" signature="12885:12953" ph="..." />
-                <marker date="1531467204556" expanded="true" signature="13643:13661" ph="..." />
-                <marker date="1531467204556" expanded="true" signature="13791:13803" ph="..." />
+                <element signature="e#9224#9230#0" expanded="true" />
+                <element signature="e#9230#9236#0" expanded="true" />
+                <element signature="e#10392#10398#0" expanded="true" />
+                <element signature="e#10398#10404#0" expanded="true" />
+                <element signature="e#10605#10915#0" expanded="false" />
+                <element signature="e#10980#12903#0" expanded="false" />
+                <element signature="e#15580#16295#0" expanded="false" />
+                <marker date="1531468798471" expanded="true" signature="11900:11990" ph="..." />
+                <marker date="1531468798471" expanded="true" signature="12170:12236" ph="..." />
+                <marker date="1531468798471" expanded="true" signature="12433:12523" ph="..." />
+                <marker date="1531468798471" expanded="true" signature="12708:12776" ph="..." />
+                <marker date="1531468798471" expanded="true" signature="13466:13484" ph="..." />
+                <marker date="1531468798471" expanded="true" signature="13614:13626" ph="..." />
               </folding>
             </state>
           </provider>
@@ -227,8 +227,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="510" />
-    <option name="y" value="90" />
+    <option name="x" value="685" />
+    <option name="y" value="29" />
     <option name="width" value="1224" />
     <option name="height" value="899" />
   </component>
@@ -377,7 +377,7 @@
       <workItem from="1531048483722" duration="24677000" />
       <workItem from="1531303840859" duration="20498000" />
       <workItem from="1531400413912" duration="1641000" />
-      <workItem from="1531466221689" duration="1791000" />
+      <workItem from="1531466221689" duration="3178000" />
     </task>
     <task id="LOCAL-00001" summary="增加黄金功能，第一版">
       <created>1531145709473</created>
@@ -428,15 +428,21 @@
       <option name="project" value="LOCAL" />
       <updated>1531467253794</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加评论内容，昵称不能为空验证，添加中文昵称提醒去除冗余代码。">
+      <created>1531468830015</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1531468830015</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211898000" />
+    <option name="totallyTimeSpent" value="213285000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="510" y="90" width="1224" height="899" extended-state="0" />
-    <editor active="true" />
+    <frame x="685" y="29" width="1224" height="899" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.008431703" sideWeight="0.49626467" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -499,7 +505,8 @@
     <MESSAGE value="修改黄金交易指数" />
     <MESSAGE value="添加评论内容，昵称不能为空验证。" />
     <MESSAGE value="添加评论内容，昵称不能为空验证，添加中文昵称提醒。" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加评论内容，昵称不能为空验证，添加中文昵称提醒。" />
+    <MESSAGE value="添加评论内容，昵称不能为空验证，添加中文昵称提醒去除冗余代码。" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加评论内容，昵称不能为空验证，添加中文昵称提醒去除冗余代码。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -855,8 +862,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GoldTrade.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="204" column="22" lean-forward="true" selection-start-line="204" selection-start-column="22" selection-end-line="204" selection-end-column="22" />
+        <state relative-caret-position="262">
+          <caret line="449" column="9" lean-forward="true" selection-start-line="449" selection-start-column="9" selection-end-line="449" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#3626#3632#0" expanded="true" />
@@ -894,19 +901,19 @@
             <element signature="n#style#0;n#button#0;n#div#2;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#div#2;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#9401#9407#0" expanded="true" />
-            <element signature="e#9407#9413#0" expanded="true" />
-            <element signature="e#10569#10575#0" expanded="true" />
-            <element signature="e#10575#10581#0" expanded="true" />
-            <element signature="e#10782#11092#0" expanded="false" />
-            <element signature="e#11157#13080#0" expanded="false" />
-            <element signature="e#15757#16472#0" expanded="false" />
-            <marker date="1531467204556" expanded="true" signature="12077:12167" ph="..." />
-            <marker date="1531467204556" expanded="true" signature="12347:12413" ph="..." />
-            <marker date="1531467204556" expanded="true" signature="12610:12700" ph="..." />
-            <marker date="1531467204556" expanded="true" signature="12885:12953" ph="..." />
-            <marker date="1531467204556" expanded="true" signature="13643:13661" ph="..." />
-            <marker date="1531467204556" expanded="true" signature="13791:13803" ph="..." />
+            <element signature="e#9224#9230#0" expanded="true" />
+            <element signature="e#9230#9236#0" expanded="true" />
+            <element signature="e#10392#10398#0" expanded="true" />
+            <element signature="e#10398#10404#0" expanded="true" />
+            <element signature="e#10605#10915#0" expanded="false" />
+            <element signature="e#10980#12903#0" expanded="false" />
+            <element signature="e#15580#16295#0" expanded="false" />
+            <marker date="1531468798471" expanded="true" signature="11900:11990" ph="..." />
+            <marker date="1531468798471" expanded="true" signature="12170:12236" ph="..." />
+            <marker date="1531468798471" expanded="true" signature="12433:12523" ph="..." />
+            <marker date="1531468798471" expanded="true" signature="12708:12776" ph="..." />
+            <marker date="1531468798471" expanded="true" signature="13466:13484" ph="..." />
+            <marker date="1531468798471" expanded="true" signature="13614:13626" ph="..." />
           </folding>
         </state>
       </provider>
