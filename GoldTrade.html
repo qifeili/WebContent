@@ -194,9 +194,6 @@
             <input type="text" name="name" id="Cname" placeholder="Name（请输入昵称）"  required="">
             <textarea name="comment" id="Ccomment" placeholder="Write a comment here..（评论内容）" required=""></textarea>
 
-            <!--<input type="email" name="Email" placeholder="Email" required="">-->
-           <!--// <input type="text" name="Website" placeholder="Website"  required="">-->
-
             <input type="checkbox" name="authority" value="pri" class="cradio fl" style="margin: 10px;width: 20px;height: 20px"><span class="cradioSpan fl" style="width: 100px;height: 40px;display:block;line-height: 40px;">仅主人可见</span>
             <!-- <input type="radio" name="authority" value="pri" class="cradio" ><span class="cradioSpan">仅主人可见</span>-->
             <input type="submit" value="Submit" onclick="saveCommit()"> <!--onclick="saveCommit()"-->
@@ -436,7 +433,7 @@
     }
 
 function TradeIndex() {
-    console.log("hahha");
+
     $.ajax({
         type:"get",
         async:"true",
@@ -444,9 +441,9 @@ function TradeIndex() {
        /* dataType:"json",*/
         data:{},
         success:function (data) {
-            console.log(data);
+           // console.log(data);
             document.getElementById("TradingIndex").innerHTML=data;
-            console.log("hahha");
+
         },
         error:function () {
          console.log("ajax请求出错！")
