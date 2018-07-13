@@ -4,9 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/GoldTrade.html" line="194" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8186a15c-ebd3-4bea-9c74-2af1daee472c" name="Default" comment="">
+    <list default="true" id="8186a15c-ebd3-4bea-9c74-2af1daee472c" name="Default" comment="添加评论内容，昵称不能为空验证，添加中文昵称提醒。">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoldTrade.html" afterPath="$PROJECT_DIR$/GoldTrade.html" />
     </list>
     <ignored path="WebContent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -275,7 +274,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/program/qifeili.github.io/index.html&#10;bg.jpg&#9;FILE&#9;file://D:/program/qifeili.github.io/images/bg.jpg" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion.SSH" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -378,7 +377,7 @@
       <workItem from="1531048483722" duration="24677000" />
       <workItem from="1531303840859" duration="20498000" />
       <workItem from="1531400413912" duration="1641000" />
-      <workItem from="1531466221689" duration="1002000" />
+      <workItem from="1531466221689" duration="1791000" />
     </task>
     <task id="LOCAL-00001" summary="增加黄金功能，第一版">
       <created>1531145709473</created>
@@ -422,11 +421,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531467123528</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加评论内容，昵称不能为空验证，添加中文昵称提醒。">
+      <created>1531467253794</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1531467253794</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211109000" />
+    <option name="totallyTimeSpent" value="211898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="510" y="90" width="1224" height="899" extended-state="0" />
@@ -434,7 +440,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.008431703" sideWeight="0.49626467" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33202615" sideWeight="0.50222224" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33202615" sideWeight="0.50222224" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987013" sideWeight="0.4977778" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -492,7 +498,8 @@
     <MESSAGE value="修改图片位置，增加黄金指数获取" />
     <MESSAGE value="修改黄金交易指数" />
     <MESSAGE value="添加评论内容，昵称不能为空验证。" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加评论内容，昵称不能为空验证。" />
+    <MESSAGE value="添加评论内容，昵称不能为空验证，添加中文昵称提醒。" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加评论内容，昵称不能为空验证，添加中文昵称提醒。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
