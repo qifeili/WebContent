@@ -231,8 +231,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="510" />
-    <option name="y" value="86" />
+    <option name="x" value="47" />
+    <option name="y" value="58" />
     <option name="width" value="1062" />
     <option name="height" value="899" />
   </component>
@@ -380,7 +380,7 @@
       <workItem from="1530704832428" duration="40645000" />
       <workItem from="1531048483722" duration="24677000" />
       <workItem from="1531303840859" duration="20498000" />
-      <workItem from="1531400413912" duration="1036000" />
+      <workItem from="1531400413912" duration="1043000" />
     </task>
     <task id="LOCAL-00001" summary="增加黄金功能，第一版">
       <created>1531145709473</created>
@@ -421,15 +421,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209502000" />
+    <option name="totallyTimeSpent" value="209509000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="510" y="86" width="1062" height="899" extended-state="0" />
-    <editor active="true" />
+    <frame x="47" y="58" width="1062" height="899" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2529297" sideWeight="0.49626467" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33202615" sideWeight="0.50222224" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33202615" sideWeight="0.50222224" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987013" sideWeight="0.4977778" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
